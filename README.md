@@ -78,7 +78,7 @@ Para que o projeto funcione corretamente, você precisa:
 ## 📥 Clonando o Repositório
 *🔹 Clonar com Git*
    ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone https://github.com/DaviLaw/Projeto_Ativos.git
    cd nome-do-repositorio
   ```
 
