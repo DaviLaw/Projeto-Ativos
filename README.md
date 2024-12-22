@@ -28,3 +28,7 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
    ```bash
    sudo apt update
    sudo apt install build-essential
+
+  checar instação
+  ```bash
+  g++ --version
