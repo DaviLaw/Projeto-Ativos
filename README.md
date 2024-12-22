@@ -43,7 +43,7 @@ Para que o projeto funcione corretamente, você precisa:
 6. Copie a senha gerada e cole no `config.json` no campo `smtp_pass`.
 
 ## 🛠️ Tecnologias Utilizadas
-- **C++ (C++11 ou superior)**
+- **C++**
 - **libcurl** (para requisições HTTP e envio de e-mails)
 - **nlohmann/json** (para manipulação de JSON)
 - **Threads** (para repetição a cada 60s)
