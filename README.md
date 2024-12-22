@@ -24,6 +24,7 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
 ## 📋 Requisitos
 
 ### 🔧 Dependências - **Linux (Ubuntu/Debian)**
+
 1. **Compilador C++ (g++)**  
    ```bash
    sudo apt update
@@ -41,3 +42,8 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
    ```bash
    sudo apt install git
 
+##📥 Clonando o Repositório
+*🔹 Clonar com Git (Recomendado)*
+   ```bash
+   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   cd nome-do-repositorio
