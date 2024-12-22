@@ -29,6 +29,33 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
    sudo apt update
    sudo apt install build-essential
 
-  checar instação
+2. **libcurl (dev)**
+   ```bash
+   sudo apt install libcurl4-openssl-dev
+
+3. **nlohmann/json**
+   ```bash
+   sudo apt install nlohmann-json-dev
+
+4. **Git**
+   ```bash
+   sudo apt install git
+
+### 🔧 Dependências - **Windows**
+1. **MinGW ou Visual Studio (compilador C++).**
+
+2. **libcurl para Windows:**
+   ```bash
+   Baixe em https://curl.se/windows/ e configure curl.h e as bibliotecas (.lib/.dll).
+   
+3. **nlohmann/json: Para minGw e VScode**
+   Baixe o vcpkg 
+   ```bash
+   git clone https://github.com/microsoft/vcpkg.git
+   cd vcpkg
+   .\bootstrap-vcpkg.bat
+   
+  Instale a Biblioteca nlohmann-json:
   ```bash
-  g++ --version
+  vcpkg install nlohmann-json
+  
