@@ -20,13 +20,17 @@ Para que o projeto funcione corretamente, você precisa:
 
 ---
 
-### 📈 1. Gerar o Token da API de Cotações (IbovFinancials)
+### 📈 1. Gerar o Token da API de Cotações (IbovFinancials) e Configurar e-mails
 1. Acesse o site: [https://ibovfinancials.com](https://ibovfinancials.com)  
 2. Crie uma conta ou faça login.  
-3. Vá até a aba **API Tokens** e clique em **Gerar Novo Token**.  
-4. Copie o token gerado e adicione ao arquivo `config/config.json` no campo `ibov_token`.
+3. Vá até a aba **API Tokens** e clique em **Gerar Novo Token**.
+5. Abra o arquivo `config/config.json`.  
+6. Copie o token gerado e adicione ao arquivo `config/config.json` no lugar de "SEU_TOKEN_AQUI" no campo `ibov_token`.
+7. Substitua "SEU_EMAIL" nos campos `smtp_user` e `email_from` pelo e-mail que irá realizar o envio da mensagem.
+8. Substitua "EMAIL_DESTINO" no campo `email_from` pelo e-mail que irá receber a mensagem.
+9.
+![imagem1](https://github.com/user-attachments/assets/bd3b5204-686d-4804-b786-772417e3de9b)
 
-![Captura de tela 2024-12-22 191031](https://github.com/user-attachments/assets/cd3dc5b5-d421-4a8a-b96e-dad27e8793a9)
 
 ---
 ## 🛠️ Tecnologias Utilizadas
