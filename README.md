@@ -34,14 +34,13 @@ Para que o projeto funcione corretamente, você precisa:
 ---
 
 ### 📧 2. Configurar Senha de App (SMTP Gmail)
-Se você usar um e-mail do Gmail para enviar os alertas, será necessário configurar uma senha de app.
 
 1. Acesse sua conta do Gmail.
 2. Vá para Gerenciamento de Conta > Segurança.
 3. Ative a Verificação em Duas Etapas (se ainda não estiver ativada).
 4. Em seguida, vá para [Senhas de App](https://myaccount.google.com/apppasswords) e selecione "Outro (Nome Personalizado)".
 5. Nomeie como Alerta Cotações e clique em Gerar.
-6. Copie a senha gerada e cole no config.json no campo `smtp_pass`.
+6. Copie a senha gerada e cole no `config.json` no campo `smtp_pass`.
 
 ## 🛠️ Tecnologias Utilizadas
 - **C++ (C++11 ou superior)**
