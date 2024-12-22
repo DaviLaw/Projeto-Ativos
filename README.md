@@ -75,8 +75,8 @@ Para que o projeto funcione corretamente, você precisa:
    
 ---
 
-##📥 Clonando o Repositório
-*🔹 Clonar com Git (Recomendado)*
+## 📥 Clonando o Repositório
+*🔹 Clonar com Git*
    ```bash
    git clone https://github.com/seuusuario/nome-do-repositorio.git
    cd nome-do-repositorio
