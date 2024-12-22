@@ -54,8 +54,8 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
    git clone https://github.com/microsoft/vcpkg.git
    cd vcpkg
    .\bootstrap-vcpkg.bat
-   
-  Instale a Biblioteca nlohmann-json:
-  ```bash
-  vcpkg install nlohmann-json
-  
+
+  Instale a biblioteca
+   ```bash
+    vcpkg install nlohmann-json
+
