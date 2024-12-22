@@ -49,13 +49,10 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
    Baixe em https://curl.se/windows/ e configure curl.h e as bibliotecas (.lib/.dll).
    
 3. **nlohmann/json: Para minGw e VScode**
-   Baixe o vcpkg 
    ```bash
    git clone https://github.com/microsoft/vcpkg.git
    cd vcpkg
    .\bootstrap-vcpkg.bat
-
-  Instale a biblioteca
-   ```bash
-    vcpkg install nlohmann-json
+   vcpkg install nlohmann-json
+   vcpkg integrate install
 
