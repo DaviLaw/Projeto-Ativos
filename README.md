@@ -41,18 +41,3 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
    ```bash
    sudo apt install git
 
-### 🔧 Dependências - **Windows**
-1. **MinGW ou Visual Studio (compilador C++).**
-
-2. **libcurl para Windows:**
-   ```bash
-   Baixe em https://curl.se/windows/ e configure curl.h e as bibliotecas (.lib/.dll).
-   
-3. **nlohmann/json: Para minGw e VScode**
-   ```bash
-   git clone https://github.com/microsoft/vcpkg.git
-   cd vcpkg
-   .\bootstrap-vcpkg.bat
-   vcpkg install nlohmann-json
-   vcpkg integrate install
-
