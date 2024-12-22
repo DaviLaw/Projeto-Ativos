@@ -1,8 +1,0 @@
-{
-  "smtp_server": "smtp://smtp.gmail.com:587",
-  "smtp_user": "SEU_EMAIL@gmail.com",
-  "smtp_pass": "xsda rfds ufda opdi",
-  "email_to": "EMAIL_DESTINO@gmail.com",
-  "email_from": "SEU_EMAIL@gmail.com",
-  "ibov_token": "SEU_TOKEN_AQUI"
-}
