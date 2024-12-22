@@ -76,10 +76,10 @@ Para que o projeto funcione corretamente, você precisa:
 ---
 
 ## 📥 Clonando o Repositório
-*🔹 Clonar com Git*
+*🔹 Clonar com Git e entrar no entrar na pasta*
    ```bash
-   git clone https://github.com/DaviLaw/Projeto-Ativos.git
-   cd nome-do-repositorio
+   git clone https://github.com/DaviLaw/Projeto-Ativos.git && cd Projeto-Ativos
+
   ```
 
 ---
