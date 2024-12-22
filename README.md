@@ -12,7 +12,23 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
 - Se alguma condição for atendida, o programa **envia um e-mail de alerta**.
 
 ---
+## 🔑 Configuração de E-mail e Token da API
 
+Para que o projeto funcione corretamente, você precisa:  
+1. Obter um **token de API** para acessar as cotações.  
+2. Configurar uma **senha de app** no Gmail para enviar e-mails via SMTP.
+
+---
+
+### 📈 1. Gerar o Token da API de Cotações (IbovFinancials)
+1. Acesse o site: [https://ibovfinancials.com](https://ibovfinancials.com)  
+2. Crie uma conta ou faça login.  
+3. Vá até a aba **API Tokens** e clique em **Gerar Novo Token**.  
+4. Copie o token gerado e adicione ao arquivo `config/config.json` no campo `ibov_token`.
+
+![Captura de tela 2024-12-22 191031](https://github.com/user-attachments/assets/cd3dc5b5-d421-4a8a-b96e-dad27e8793a9)
+
+---
 ## 🛠️ Tecnologias Utilizadas
 - **C++ (C++11 ou superior)**
 - **libcurl** (para requisições HTTP e envio de e-mails)
@@ -22,6 +38,8 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
 ---
 
 ## 📋 Requisitos
+
+
 
 ### 🔧 Dependências - **Linux (Ubuntu/Debian)**
 
@@ -41,9 +59,12 @@ Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PET
 4. **Git**
    ```bash
    sudo apt install git
+   
+---
 
 ##📥 Clonando o Repositório
 *🔹 Clonar com Git (Recomendado)*
    ```bash
    git clone https://github.com/seuusuario/nome-do-repositorio.git
    cd nome-do-repositorio
+
