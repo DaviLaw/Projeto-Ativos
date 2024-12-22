@@ -80,4 +80,23 @@ Para que o projeto funcione corretamente, você precisa:
    ```bash
    git clone https://github.com/seuusuario/nome-do-repositorio.git
    cd nome-do-repositorio
+  ```
+
+---
+
+## 🚧 Compilando o Projeto
+
+  ```bash
+  g++ -std=c++17 src/main.cpp src/email_sender.cpp src/config_loader.cpp -lcurl -o meu_programa
+
+```
+---
+## ▶️ Executando o Programa
+
+  ```bash
+  ./meu_programa <ATIVO> <PRECO_VENDA> <PRECO_COMPRA>
+
+```
+```bash
+./meu_programa PETR4 30 15
 
