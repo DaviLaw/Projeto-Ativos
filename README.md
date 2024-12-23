@@ -76,7 +76,7 @@ Para que o projeto funcione corretamente, você precisa:
 ---
 
 ## 📥 Clonando o Repositório
-*🔹 Clonar com Git e entrar no entrar na pasta*
+*🔹 Clonar com Git e entrar na pasta*
    ```bash
    git clone https://github.com/DaviLaw/Projeto-Ativos.git && cd Projeto-Ativos
 
