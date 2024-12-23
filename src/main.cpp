@@ -46,7 +46,7 @@ int main(int quantidade, char* args[]) {
         //c.str() converte de string para const char*
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
 
-        //Definir callback, nesse caso, salvar dados na memoria (read)
+        //Definir callback, salvar dados na memoria (read)
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
 
         //Definir local de armazenamento
