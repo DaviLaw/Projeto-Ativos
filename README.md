@@ -21,6 +21,7 @@ Para que o projeto funcione corretamente, você precisa:
 ---
 
 ### 📈 1. Gerar o Token da API de Cotações (IbovFinancials) e Configurar e-mails
+(Você irá realizar essa parte após clonar o git e baixar as pastas do projeto)
 1. Acesse o site: [https://ibovfinancials.com](https://ibovfinancials.com)  
 2. Crie uma conta ou faça login.  
 3. Vá até a aba **API Tokens** e clique em **Gerar Novo Token**.
