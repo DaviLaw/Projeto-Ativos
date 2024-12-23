@@ -65,6 +65,7 @@ Para que o projeto funcione corretamente, você precisa:
 2. **libcurl (dev)**
    ```bash
    sudo apt install libcurl4-openssl-dev
+   sudo apt install libssl-dev
 
 3. **nlohmann/json**
    ```bash
