@@ -1,6 +1,6 @@
 # Projeto-Ativos
 # Monitoramento de Ativos com Alerta por E-mail 🚀
-
+(O projeto ainda está em fase parcial)
 ## 📌 Visão Geral do Projeto
 Este projeto realiza o **monitoramento de cotações de ativos da B3** (ex.: PETR4) e **envia alertas por e-mail** quando o preço atinge valores pré-definidos para **compra** ou **venda**.
 
